@@ -49,7 +49,7 @@ class NoteInput extends React.Component {
           value={this.state.body}
           onChange={this.onBodyChangeEventHandler}
         />
-        <button type="submit">Tambah</button>
+        <button type="submit" className="button-22">Tambah</button>
       </form>
     );
   }
